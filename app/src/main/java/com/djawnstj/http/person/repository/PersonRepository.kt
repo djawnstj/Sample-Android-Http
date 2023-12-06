@@ -1,8 +1,8 @@
 package com.djawnstj.http.person.repository
 
-import com.djawnstj.http.api.dto.request.BaseRequest
-import com.djawnstj.http.api.dto.response.BaseResponse
-import com.djawnstj.http.api.retrofit
+import com.djawnstj.http.common.api.dto.request.BaseRequest
+import com.djawnstj.http.common.api.dto.response.BaseResponse
+import com.djawnstj.http.common.api.retrofit
 import com.djawnstj.http.person.dto.Person
 import com.djawnstj.http.person.dto.request.PersonCreateRequest
 import com.djawnstj.http.person.dto.response.PersonCreateResponse

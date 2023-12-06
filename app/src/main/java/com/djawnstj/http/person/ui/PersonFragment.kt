@@ -4,7 +4,7 @@ import android.content.Context.INPUT_METHOD_SERVICE
 import android.view.inputmethod.InputMethodManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.djawnstj.http.api.dto.response.BaseResponse
+import com.djawnstj.http.common.api.dto.response.BaseResponse
 import com.djawnstj.http.common.showToast
 import com.djawnstj.http.common.ui.BaseFragment
 import com.djawnstj.http.common.utils.error

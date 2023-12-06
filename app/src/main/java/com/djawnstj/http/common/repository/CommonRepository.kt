@@ -1,8 +1,8 @@
 package com.djawnstj.http.common.repository
 
-import com.djawnstj.http.api.dto.request.BaseRequest
-import com.djawnstj.http.api.dto.response.BaseResponse
-import com.djawnstj.http.api.retrofit
+import com.djawnstj.http.common.api.dto.request.BaseRequest
+import com.djawnstj.http.common.api.dto.response.BaseResponse
+import com.djawnstj.http.common.api.retrofit
 import com.djawnstj.http.common.dto.Ward
 import retrofit2.Call
 import retrofit2.create

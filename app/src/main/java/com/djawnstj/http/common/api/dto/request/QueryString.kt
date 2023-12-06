@@ -1,4 +1,4 @@
-package com.djawnstj.http.api.dto.request
+package com.djawnstj.http.common.api.dto.request
 
 interface QueryString {
 

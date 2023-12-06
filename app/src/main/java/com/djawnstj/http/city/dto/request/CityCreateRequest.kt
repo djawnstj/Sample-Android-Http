@@ -1,6 +1,6 @@
 package com.djawnstj.http.city.dto.request
 
-import com.djawnstj.http.api.dto.request.BaseRequest
+import com.djawnstj.http.common.api.dto.request.BaseRequest
 
 class CityCreateRequest(
     val name: String,

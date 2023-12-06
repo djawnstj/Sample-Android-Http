@@ -1,4 +1,4 @@
-package com.djawnstj.http.api
+package com.djawnstj.http.common.api
 
 import com.djawnstj.http.common.utils.debug
 import okhttp3.OkHttpClient

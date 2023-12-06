@@ -1,4 +1,4 @@
-package com.djawnstj.http.api.dto.response
+package com.djawnstj.http.common.api.dto.response
 
 data class BaseResponse<T>(
     val code: Int,

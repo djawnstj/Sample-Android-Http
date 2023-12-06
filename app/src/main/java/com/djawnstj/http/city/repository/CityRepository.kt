@@ -1,8 +1,8 @@
 package com.djawnstj.http.city.repository
 
-import com.djawnstj.http.api.dto.request.BaseRequest
-import com.djawnstj.http.api.dto.response.BaseResponse
-import com.djawnstj.http.api.retrofit
+import com.djawnstj.http.common.api.dto.request.BaseRequest
+import com.djawnstj.http.common.api.dto.response.BaseResponse
+import com.djawnstj.http.common.api.retrofit
 import com.djawnstj.http.city.dto.City
 import com.djawnstj.http.city.dto.request.CityCreateRequest
 import com.djawnstj.http.city.dto.response.CityCreateResponse
