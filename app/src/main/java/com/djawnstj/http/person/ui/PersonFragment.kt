@@ -9,6 +9,7 @@ import com.djawnstj.http.common.showToast
 import com.djawnstj.http.common.ui.BaseFragment
 import com.djawnstj.http.common.utils.error
 import com.djawnstj.http.databinding.FragmentPersonBinding
+import com.djawnstj.http.menu.ui.MenuFragment
 import com.djawnstj.http.person.adapter.PersonListAdapter
 import com.djawnstj.http.person.dto.Person
 import com.djawnstj.http.person.dto.request.PersonCreateRequest
@@ -101,5 +102,6 @@ class PersonFragment: BaseFragment<FragmentPersonBinding>(FragmentPersonBinding:
     }
 
     override fun onBackPressed() {
+        listener?.changeFragment(MenuFragment())
     }
 }

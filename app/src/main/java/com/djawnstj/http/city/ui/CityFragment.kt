@@ -11,6 +11,7 @@ import com.djawnstj.http.city.repository.cityApi
 import com.djawnstj.http.common.showToast
 import com.djawnstj.http.common.ui.BaseFragment
 import com.djawnstj.http.databinding.FragmentCityBinding
+import com.djawnstj.http.menu.ui.MenuFragment
 import kotlinx.coroutines.*
 
 class CityFragment : BaseFragment<FragmentCityBinding>(FragmentCityBinding::inflate) {
@@ -119,6 +120,7 @@ class CityFragment : BaseFragment<FragmentCityBinding>(FragmentCityBinding::infl
     }
 
     override fun onBackPressed() {
+        listener?.changeFragment(MenuFragment())
     }
 
 }
